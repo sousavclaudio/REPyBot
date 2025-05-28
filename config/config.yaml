@@ -1,0 +1,15 @@
+# config/config.yaml
+
+app_settings:
+  url_google: "https://www.google.com"
+  # driver_path: "/home/claudio-sousa/drivers/chromedriver" # Opcional se estiver no PATH
+  driver_path: "/home/claudio-sousa/drivers/chromedriver" # Ajuste para o seu caminho REAL do chromedriver
+
+transaction_settings:
+  max_retries: 3 # Número máximo de tentativas por transação
+  # Outras configurações específicas da transação
+
+# Credenciais (Exemplo: NÃO COLOQUE SENHAS AQUI em produção!)
+credentials:
+  user_name: "testuser"
+  password: "testpassword"
